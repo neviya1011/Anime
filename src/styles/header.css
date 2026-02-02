@@ -1,0 +1,99 @@
+.navs {
+  position: relative;
+  cursor: pointer;
+}
+
+.navs::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: auto;
+  height: 4px;
+  width: 0;
+  background-color: rgb(86, 72, 157);
+  transition: width 0.3s ease;
+}
+
+.navs:hover::after {
+  width: 100%;
+}
+
+.contact {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact:hover {
+  transform: scale(1.1);
+}
+
+.contact:active {
+  transform: scale(0.95);
+}
+
+@media only screen and (max-width: 768px) {
+  .bar {
+    padding: 40px;
+  }
+
+  .cross {
+    display: inline-block;
+  }
+
+  nav {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90%, 700px);
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(61, 63, 71);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) scale(1);
+  }
+
+  .nav-close {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .navs,
+  .contact {
+    position: static;
+    display: inline-flex;
+    width: fit-content;
+    padding: 10px;
+  }
+
+  .navs::after {
+    display: none;
+  }
+
+  .navs:hover {
+    background-color: rgb(86, 72, 157);
+    border-radius: 30px;
+    padding: 10px 20px;
+  }
+
+  .icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .icon.active {
+    transform: rotate(45deg);
+  }
+}
