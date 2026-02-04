@@ -9,3 +9,13 @@ button:hover {
 button:active {
   transform: scale(0.95);
 }
+
+@media only screen and (max-width:768px) {
+  .Right{
+    height: 100%;
+    width: 100vw;
+    opacity: 0.25;
+    justify-content: center;
+    align-items: center;
+  }
+}

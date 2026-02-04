@@ -1,30 +1,10 @@
-import React, { useState } from "react";
+import React, {useState } from "react";
 import "../styles/header.css";
 import Logo from "../assets/images/logo.svg";
 import { Minus } from "lucide-react";
-// import gsap from "gsap";
 
 const Header = () => {
   const [roti_1, setRoti_1] = useState(false);
-
-  // useEffect(() => {
-  //   gsap.from(".contact", {
-  //     y: -30,
-  //     opacity: 0,
-  //     scale: 0.9,
-  //     duration: 1,
-  //     delay: 1,
-  //     ease: "power2.out",
-  //   });
-
-  //   gsap.from(".logo, .navs", {
-  //     y: -30,
-  //     opacity: 0,
-  //     duration: 1,
-  //     delay: 1,
-  //     stagger: 0.2,
-  //   });
-  // }, []);
 
   return (
     <div className=" w-screen relative">

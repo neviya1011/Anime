@@ -8,8 +8,8 @@ import Testimonials from '../sections/Testimonials'
 const Home = () => {
   return (
     <div> 
-      <Hero />
-      <About />
+      <Hero /> {/*Done*/}
+      <About /> 
       <Contact />
       <Services />
       <Testimonials />
