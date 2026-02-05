@@ -47,7 +47,7 @@
     left: 50%;
     transform: translateX(-50%);
     width: min(90%, 700px);
-    height: 400px;
+    height: 450px;
     border-radius: 20px;
     background-color: rgb(61, 63, 71);
     flex-direction: column;
@@ -71,8 +71,7 @@
     pointer-events: none;
   }
 
-  .navs,
-  .contact {
+  .navs {
     position: static;
     display: inline-flex;
     width: fit-content;

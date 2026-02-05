@@ -7,7 +7,7 @@ import Testimonials from '../sections/Testimonials'
 
 const Home = () => {
   return (
-    <div> 
+    <div className='w-screen h-screen'> 
       <Hero /> {/*Done*/}
       <About /> 
       <Contact />

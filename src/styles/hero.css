@@ -1,12 +1,12 @@
-button {
+.touch, .build {
   transition: transform 0.2s ease-in-out;
 }
 
-button:hover {
+.touch:hover, .build:hover {
   transform: scale(1.1);
 }
 
-button:active {
+.touch:active {
   transform: scale(0.95);
 }
 
@@ -18,4 +18,36 @@ button:active {
     justify-content: center;
     align-items: center;
   }
+
+  .Left{
+    width: 100vw;
+    z-index: 10;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Right, .Left{
+    position: absolute;
+    top: 0;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .web{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
 }

@@ -1,0 +1,27 @@
+.underline {
+    width: 170px;
+    height: 45px;
+    border: 7px solid rgb(115, 68, 214);
+    border-color: rgb(115, 68, 214) transparent transparent transparent;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:768px){
+    .about{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .man, .hand{
+        display: none;
+    }
+
+    .content{
+        display: flex;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+
+}
