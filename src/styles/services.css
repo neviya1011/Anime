@@ -1,8 +1,8 @@
 .bord{
     width: 150px;
     height: 20px;
-    border: 5px solid rgb(149,123,161);
-    border-color: rgb(149,123,161) transparent transparent transparent;
+    border: 5px solid rgb(138,113,208);
+    border-color: rgb(138,113,208) transparent transparent transparent;
     border-radius: 50%;
 }
 

@@ -10,9 +10,9 @@ const Home = () => {
     <div className='w-screen h-screen'> 
       <Hero /> {/*Done*/}
       <About /> {/*Done*/}
-      <Services /> 
-      <Contact />
+      <Services /> {/*Done*/}
       <Testimonials />
+      <Contact />
     </div>
   )
 }

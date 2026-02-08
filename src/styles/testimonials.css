@@ -1,0 +1,11 @@
+.under{
+    width: 400px;
+    height: 50px;
+    border: 5px solid rgb(138,113,208);
+    border-color: rgb(138,113,208) transparent transparent transparent;
+    border-radius: 50%;
+}
+
+.cards::-webkit-scrollbar{
+    overflow-x: hidden;
+}

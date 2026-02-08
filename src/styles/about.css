@@ -7,6 +7,11 @@
 }
 
 @media only screen and (max-width:768px){
+
+    /* .aboutSec{
+        height: 100vh;
+    } */
+
     .about{
         width: 100vw;
         display: flex;
@@ -18,10 +23,28 @@
         display: none;
     }
 
-    .content{
-        display: flex;
-        margin-top: -30px;
-        margin-bottom: 20px;
+    .rocket{
+        max-width: 250px;
+        position: relative;
     }
 
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* .words{
+        position: absolute;
+        top: -70px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pallete{
+        position: absolute;
+        top: 40px;
+    } */
 }
