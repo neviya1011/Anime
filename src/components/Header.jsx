@@ -45,7 +45,7 @@ const Header = () => {
   }, [scrolled]);
 
   return (
-    <div id="home" className=" w-screen">
+    <div id="home" className="home w-screen">
       <div
         ref={navRef}
         className={`bar w-full h-[100px] px-[60px] flex items-center justify-between bg-[rgb(54,53,62)] text-white ${scrolled ? "fixed top-0 left-0 navbar-scroll" : "relative"}`}
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
 
         <nav
-          className={`flex gap-10 items-center ${roti_1 ? "nav-open" : "nav-close"}`}
+          className={`flex gap-10 justify-center items-center ${roti_1 ? "nav-open" : "nav-close"}`}
         >
           <a
             className="navs font-bold text-[20px] py-0.5"

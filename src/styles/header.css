@@ -33,7 +33,7 @@
 }
 
 .navbar-scroll {
-  width: 1500px;
+  max-width: 1500px;
   background: rgba(54, 53, 62, 0.95);
   backdrop-filter: blur(10px);
   z-index: 999;
@@ -48,12 +48,19 @@
   scroll-margin-top: 100px;
 }
 
-#about{
-  scroll-margin-top: 5px;
-}
-
-
 @media only screen and (max-width: 768px) {
+
+  .navbar-scroll {
+    width: calc(100% - 20px);
+    max-width: 1200px;
+    background: rgba(54, 53, 62, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    border-radius: 50px;
+    margin: 10px auto;
+    border: 2px solid white;
+  }
+
   .bar {
     padding: 40px;
   }
