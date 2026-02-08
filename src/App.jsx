@@ -10,8 +10,8 @@ const App = () => {
     <div className=''>
       <Header /> {/*Done*/}
       <Home />
-      <Footer />
-      <ScrollToTop />
+      {/* <Footer />
+      <ScrollToTop /> */}
       
     </div>
   )

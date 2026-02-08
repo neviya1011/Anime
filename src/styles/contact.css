@@ -1,0 +1,29 @@
+.unders {
+  width: 150px;
+  height: 40px;
+  border: 5px solid rgb(138, 113, 208);
+  border-color: rgb(138, 113, 208) transparent transparent transparent;
+  border-radius: 50%;
+}
+
+button, .logo{
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover, .logo:hover{
+    transform: scale(1.1);
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+@media only screen and (max-width:768px){
+    input{
+        max-width: 180px;
+    }
+
+    textarea{
+        width: 380px;
+    }
+}
