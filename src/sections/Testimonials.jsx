@@ -54,7 +54,7 @@ const Testimonials = () => {
   return (
     <div className="w-screen h-screen">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="text-4xl pt-[30px] font-bold text-center">
+        <h1 className="max-w-full text-4xl pt-[30px] font-bold text-center">
           Few good words about us!
         </h1>
         <div className="under"></div>
@@ -62,9 +62,9 @@ const Testimonials = () => {
 
       {/* VIEWPORT */}
       <div className="flex mt-[20px] justify-center items-center">
-        <div className="w-[900px] overflow-hidden pt-[110px]">
+        <div className="slide w-full overflow-hidden pt-[110px]">
           {/* TRACK */}
-          <div ref={sliderRef} className="flex gap-10 w-max">
+          <div ref={sliderRef} className=" flex gap-10 w-max">
             {cards.map((elem, idx) => (
               <Card key={idx} {...elem} />
             ))}
