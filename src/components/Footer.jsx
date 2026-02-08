@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/footer.css'
 import { X, MailOpen, Instagram } from 'lucide-react'
-import ScrollToTop from './ScrollToTop'
 
 
 const Footer = () => {
@@ -12,7 +11,6 @@ const Footer = () => {
         <p className='flex text-[20px]'>Reach me out via 😊 <span className='flex gap-2 items-center'> <X /> <Instagram /> <MailOpen /> </span>
         </p>
       </div>
-      <ScrollToTop />
     </div>
   )
 }

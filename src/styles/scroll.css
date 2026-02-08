@@ -1,0 +1,7 @@
+.up{
+    transition: transform 0.2s ease-in-out;
+}
+
+.up:active{
+    scale: 0.95;
+}

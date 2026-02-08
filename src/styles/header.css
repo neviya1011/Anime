@@ -32,6 +32,26 @@
   transform: scale(0.95);
 }
 
+.navbar-scroll {
+  width: 1500px;
+  background: rgba(54, 53, 62, 0.95);
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  border-radius: 50px;
+  margin: 10px;
+  border: 2px white solid;
+}
+
+#home,
+#about,
+#service,
+#contact {
+  scroll-margin-top: 200px;
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
   .bar {
     padding: 40px;

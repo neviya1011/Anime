@@ -74,9 +74,9 @@ const Services = () => {
   }, []);
 
   return (
-    <section
+    <section id="service"
       ref={sectionRef}
-      className="w-screen h-screen bg-black text-white flex justify-center"
+      className="services w-screen h-screen bg-black text-white flex justify-center"
     >
       <div className="flex flex-col items-center">
         {/* Heading */}

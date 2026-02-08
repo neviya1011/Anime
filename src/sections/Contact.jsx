@@ -5,10 +5,11 @@ import facebook from "../assets/images/facebook-square-brands.svg";
 import linkedIn from "../assets/images/linkedin-brands.svg";
 import twitter from "../assets/images/twitter-square-brands.svg";
 import instagram from "../assets/images/instagram-square-brands.svg";
+import ScrollToTop from "../components/ScrollToTop";
 
 const Contact = () => {
   return (
-    <div className="w-screen h-screen relative">
+    <div id="contact" className="contacts w-screen h-screen relative">
       <div className="w-full h-[650px] bg-black flex flex-col justify-evenly items-center">
 
         <div className="flex flex-col justify-center items-center">
@@ -52,6 +53,7 @@ const Contact = () => {
 
       </div>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 };
