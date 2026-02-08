@@ -9,10 +9,7 @@ const App = () => {
   return (
     <div className=''>
       <Header /> {/*Done*/}
-      <Home />
-      {/* <Footer />
-      <ScrollToTop /> */}
-      
+      <Home /> {/*Done*/}
     </div>
   )
 }
