@@ -10,8 +10,10 @@
     .about{
         width: 100vw;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 10px;
     }
 
     .man, .hand{
@@ -19,9 +21,24 @@
     }
 
     .content{
+        width: 600px;
+        width: 100%;
         display: flex;
-        margin-top: -30px;
+        align-items: center;
+        justify-content: center;
         margin-bottom: 20px;
+    }
+    .rocket{
+        width: 250px;
+    }
+
+    .txt{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
     }
 
 }
