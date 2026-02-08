@@ -43,13 +43,14 @@
 }
 
 #home,
-#about,
 #service,
 #contact {
-  scroll-margin-top: 200px;
+  scroll-margin-top: 100px;
 }
 
-
+#about{
+  scroll-margin-top: 5px;
+}
 
 
 @media only screen and (max-width: 768px) {

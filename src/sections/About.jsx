@@ -19,7 +19,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="w-screen relative flex flex-col items-start justify-center">
+    <div id="about" className="w-screen relative flex flex-col items-start justify-center">
       <img src={wave} className="w-full -mt-1" />
 
       <div className="about w-full mx-auto px-6 flex items-center justify-center">
