@@ -19,53 +19,54 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about" className="aboutSec relative w-screen">
-      <img src={wave} className="block w-full -mt-[1px] h-auto" />
+    <div className="w-screen relative flex flex-col items-start justify-center">
+      <img src={wave} className="w-full -mt-1" />
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center gap-16">
-
+      <div className="about w-full mx-auto px-6 flex items-center justify-center">
         {/* LEFT SECTION */}
-        <div className="w-full md:w-1/2 relative">
-          <div className="about">
+        <div className="w-1/2 relative flex flex-col justify-center items-center">
+          <div className="about flex justify-center items-start">
             <h1 className="text-5xl font-bold mt-6 md:text-[44px]">
               About Us
               <div className="underline mt-2"></div>
             </h1>
           </div>
 
-          <div className="relative mt-10 flex justify-center">
+          <div className="relative mt-16 flex justify-center items-start">
             <img
               ref={rocketRef}
               src={rocket}
-              className="rocket max-w-[320px] w-full"
+              className="rocket max-w-[400px] w-full"
             />
           </div>
         </div>
 
         {/* RIGHT SECTION */}
-        <div className="content w-full relative">
-          <img
-            src={man}
-            className=" man w-[210px] absolute lg:-top-97 lg:right-50 md:right-10 md:-top-[300px]"
-          />
 
-          <p className=" words text-[rgb(85,93,100)] text-2xl font-bold max-w-[460px] md:text-[20px] md:absolute md:top-1 lg:text-2xl lg:absolute lg:right-[200px] lg:-top-[95px]">
-            We help our customers to tell about themselves, to grow and stand
-            out in an increasingly competitive digital world, through creative
-            projects that are able to attract and involve, creating strategic
-            value.
-          </p>
+        <div className="content w-1/2 h-full relative flex flex-col justify-center items-center">
+          <div className="content flex flex-col justify-center items-end">
+            <img src={man} className=" man lg:w-[210px] lg:absolute lg:-top-[300px] md:w-[190px] md:absolute md:-top-[270px]" />
 
-          <div className="pallete flex gap-6 mt-8 md:absolute md:top-[140px] lg:absolute lg:right-[555px] lg:top-[80px] ">
-            <div className="w-[30px] h-[30px] rounded-full bg-[rgb(130,61,229)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
-            <div className="w-[30px] h-[30px] rounded-full bg-[rgb(226,165,244)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
-            <div className="w-[30px] h-[30px] rounded-full bg-[rgb(9,15,18)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
+            <div className="txt flex flex-col justify-center items-start">
+              <p className="text-[rgb(85,93,100)] lg:text-2xl font-bold max-w-[460px] flex justify-center items-center md:text-[20px]">
+                We help our customers to tell about themselves, to grow and
+                stand out in an increasingly competitive digital world, through
+                creative projects that are able to attract and involve, creating
+                strategic value.
+              </p>
+
+              <div className="flex gap-6 mt-8">
+                <div className="w-[30px] h-[30px] rounded-full bg-[rgb(130,61,229)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
+                <div className="w-[30px] h-[30px] rounded-full bg-[rgb(226,165,244)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
+                <div className="w-[30px] h-[30px] rounded-full bg-[rgb(9,15,18)] md:w-[20px] md:h-[20px] md:rounded-full"></div>
+              </div>
+            </div>
           </div>
         </div>
 
         <img
           src={hand}
-          className="hand absolute bottom-0 right-0 md:w-[180px] lg:w-[300px]"
+          className="hand absolute bottom-0 right-0 md:w-[170px] lg:w-[250px]"
         />
       </div>
     </div>

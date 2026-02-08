@@ -6,7 +6,7 @@ import HeroRight from "./HeroRight";
 const Hero = () => {
   return (
     <div
-      className="hero h-screen w-screen min-h-[calc(90vh-100px)] bg-black relative flex flex-col md:flex-row">
+      className="hero w-screen min-h-[calc(100vh-100px)] bg-black relative flex flex-col md:flex-row">
       <HeroLeft />
       <HeroRight />
     </div>

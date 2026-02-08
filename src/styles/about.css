@@ -8,24 +8,38 @@
 
 @media only screen and (max-width:768px){
 
-    /* .aboutSec{
-        height: 100vh;
-    } */
-
     .about{
         width: 100vw;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 10px;
     }
 
     .man, .hand{
         display: none;
     }
 
+    .content{
+        width: 600px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
     .rocket{
-        max-width: 250px;
-        position: relative;
+        width: 250px;
+    }
+
+    .txt{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
     }
 
     .content{
@@ -33,18 +47,4 @@
         align-items: center;
         justify-content: center;
     }
-
-    /* .words{
-        position: absolute;
-        top: -70px;
-        font-size: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .pallete{
-        position: absolute;
-        top: 40px;
-    } */
 }
