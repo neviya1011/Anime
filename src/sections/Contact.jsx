@@ -11,7 +11,6 @@ const Contact = () => {
   return (
     <div id="contact" className="contacts w-screen h-screen relative">
       <div className="w-full h-[650px] bg-black flex flex-col justify-evenly items-center">
-
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-white font-bold text-3xl">Get in touch</h1>
           <div className="unders"></div>
@@ -45,15 +44,15 @@ const Contact = () => {
                 className="bg-[rgb(63,61,86)] p-[10px] md:w-[455px] resize-none outline-none border-none"
               ></textarea>
             </div>
-
           </div>
         </form>
 
-        <button className="bg-white px-[60px] py-[15px] rounded-3xl text-[20px]">Submit</button>
-
+        <button className="bg-white px-[60px] py-[15px] rounded-3xl text-[20px]">
+          Submit
+        </button>
       </div>
+
       <Footer />
-      <ScrollToTop />
     </div>
   );
 };
