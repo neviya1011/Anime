@@ -76,6 +76,12 @@ const Header = () => {
           >
             Services
           </a>
+          <a
+            className="navs font-bold text-[20px] py-0.5"
+            onClick={() => scrollToSection("testimonial")}
+          >
+            Testimonials
+          </a>
           <button
             className="contact font-bold text-[20px] py-0.5 bg-[rgb(126,61,225)] px-[20px] py-[10px] rounded-4xl outline-none border-none"
             onClick={() => scrollToSection("contact")}

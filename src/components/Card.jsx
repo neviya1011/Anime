@@ -2,7 +2,7 @@
 const Card = (props) => {
 
   return (
-    <div className="w-[350px] h-[400px] bg-[rgb(64,62,87)] rounded-3xl flex flex-col justify-center items-center shrink-0 relative">
+    <div className="w-[350px] h-[400px] bg-[rgb(64,62,87)] rounded-3xl flex flex-col justify-center items-center shrink-0 relative px-[20px]">
       <img
         className="w-[170px] h-[170px] rounded-full z-10 object-cover absolute -top-[100px]"
         src={props.photo}

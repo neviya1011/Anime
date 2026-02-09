@@ -52,7 +52,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen">
+    <div id="testimonial" className="w-screen h-screen">
       <div className="flex flex-col justify-center items-center">
         <h1 className="max-w-full text-4xl pt-[30px] font-bold text-center">
           Few good words about us!
